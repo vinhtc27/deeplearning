@@ -16,7 +16,9 @@ dl/
 │   ├── mlp_mnist.py       # MLP trên MNIST
 │   ├── cnn_mnist.py       # LeNet-5 trên MNIST
 │   ├── ae_mnist.py        # Autoencoder trên MNIST
-│   └── vae_mnist.py       # Variational Autoencoder trên MNIST
+│   ├── vae_mnist.py       # Variational Autoencoder trên MNIST
+│   ├── lstm_mnist.py      # Long Short-Term Memory trên MNIST
+│   └── vit_mnist.py       # Vision Transformer trên MNIST
 ├── cifar10/
 │   ├── mlp_cifar10.py     # MLP trên CIFAR-10
 │   └── cnn_cifar10.py     # CNN trên CIFAR-10
@@ -24,7 +26,9 @@ dl/
 │   ├── mlp.md             # Lý thuyết & thực hành MLP
 │   ├── cnn.md             # Lý thuyết & thực hành CNN
 │   ├── ae.md              # Lý thuyết & thực hành AE
-│   └── vae.md             # Lý thuyết & thực hành VAE
+│   ├── vae.md             # Lý thuyết & thực hành VAE
+│   ├── lstm.md            # Lý thuyết & thực hành LSTM
+│   └── vit.md             # Lý thuyết & thực hành Transformer / ViT
 └── requirements.txt
 ```
 
@@ -38,6 +42,8 @@ dl/
 | Convolutional Neural Network (CNN) | [docs/cnn.md](docs/cnn.md) | [cnn_mnist.py](mnist/cnn_mnist.py) | [cnn_cifar10.py](cifar10/cnn_cifar10.py) |
 | Autoencoder (AE) | [docs/ae.md](docs/ae.md) | [ae_mnist.py](mnist/ae_mnist.py) | — |
 | Variational Autoencoder (VAE) | [docs/vae.md](docs/vae.md) | [vae_mnist.py](mnist/vae_mnist.py) | — |
+| Long Short-Term Memory (LSTM) | [docs/lstm.md](docs/lstm.md) | [lstm_mnist.py](mnist/lstm_mnist.py) | — |
+| Vision Transformer (ViT) | [docs/vit.md](docs/vit.md) | [vit_mnist.py](mnist/vit_mnist.py) | — |
 
 ---
 
